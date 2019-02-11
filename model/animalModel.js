@@ -1,4 +1,4 @@
-const mongoose = require('../db/connection.js')
+const mongoose = require('../db/connection')
 
 
 const Animal = new mongoose.Schema({
@@ -8,6 +8,6 @@ const Animal = new mongoose.Schema({
     animalDetails: String,
 })
 
-mongoose.module('animalModel', Animal)
+mongoose.model('animalModel', Animal)
 
 module.exports = mongoose
