@@ -17,10 +17,6 @@ module.exports = {
         res.send('hello') 
     },
 
-    show: (req, res) => {
-        res.send('hello') 
-    },
-
     showOne: (req, res) => {
         res.send('hello') 
     },
