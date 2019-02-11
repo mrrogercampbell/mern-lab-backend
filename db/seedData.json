@@ -1,0 +1,20 @@
+[
+    {
+        "animalName": "Three-toed sloth",
+        "photoUrl": "https://i.ytimg.com/vi/0Mz_LhuSNAw/maxresdefault.jpg",
+        "animalOrgin": "Latin America",
+        "animalDetails": "The three-toed sloths are tree-living mammals from Latin America. They are the only members of the genus Bradypus and the family Bradypodidae. The four living species of three-toed sloths are the brown-throated sloth, the maned sloth, the pale-throated sloth, and the pygmy three-toed sloth."
+    },
+    {
+        "animalName": "Sloth Bear",
+        "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Sloth_Bear_Washington_DC.JPG/440px-Sloth_Bear_Washington_DC.JPG",
+        "animalOrgin": "Indian subcontinent",
+        "animalDetails": "The sloth bear (Melursus ursinus) is an insectivorous bear species native to the Indian subcontinent. It is listed as Vulnerable on the IUCN Red List, mainly because of habitat loss and degradation."
+    },
+    {
+        "animalName": "Red Wolf",
+        "photoUrl": "https://c1.staticflickr.com/5/4052/4647555218_4a14c096a2_b.jpg",
+        "animalOrgin": "Eastern United States",
+        "animalDetails": "The red wolf (Canis lupus rufus[6][7] or Canis rufus[4]) is a canine native to the southeastern United States. The subspecies is the product of ancient genetic admixture between the gray wolf and the coyote,[8][9] however it is regarded as unique and therefore worthy of conservation."
+    }
+]
