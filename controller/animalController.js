@@ -1,5 +1,5 @@
-const mongoose = require('../model/userModel')
-const User = mongoose.model('userModel')
+const mongoose = require('../model/animalModel')
+const Animal = mongoose.model('animalModel')
 
 mongoose.Promise = Promise
 
