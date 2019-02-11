@@ -1,4 +1,4 @@
-const mongooose = require('../model/userModel')
+const mongoose = require('../model/userModel')
 const User = mongoose.model('userModel')
 
 mongoose.Promise = Promise
