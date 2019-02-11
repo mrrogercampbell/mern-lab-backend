@@ -6,7 +6,10 @@ mongoose.Promise = Promise
 
 module.exports = {
     index: (req, res) => {
-        res.send('hello') 
+        Animal.find({})
+        .then(animals => {
+            res.json(animals)
+        })
     },
 
     new: (req, res) => {
