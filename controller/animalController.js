@@ -17,11 +17,24 @@ module.exports = {
     },
 
     create: (req, res) => {
-        res.send('hello') 
+        Animal.create({
+            animalName: req.body.animalName,
+            photoUrl: req.body.photoUrl,
+            animalOrigin: req.body.animalOrigin,
+            animalDetails: req.body.animalDetails
+        })
+        .then(newAnimal => {
+            console.log(`Hey check out the new animal ${newAnimal}`)
+            res.json(newAnimal)
+        })
     },
 
     showOne: (req, res) => {
-        res.send('hello') 
+        Animal.findOne({_id: req.params.id})
+        .then(showOneAnimal => {
+            console.log(showOneAnimal)
+            res.json(showOneAnimal)
+          })
     },
 
     update: (req, res) => {
@@ -29,6 +42,9 @@ module.exports = {
     },
 
     destroy: (req, res) => {
-        res.send('hello') 
+        Animal.findOneAndRemove({_id: req.params.id})
+        .then( (animal) => {
+            res.json(animal)
+        })
     }
 }

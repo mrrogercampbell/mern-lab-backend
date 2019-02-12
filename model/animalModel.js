@@ -4,7 +4,7 @@ const mongoose = require('../db/connection')
 const Animal = new mongoose.Schema({
     animalName: String,
     photoUrl: String,
-    animalOrgin: String,
+    animalOrigin: String,
     animalDetails: String,
 })
 
