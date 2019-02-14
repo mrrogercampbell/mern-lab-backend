@@ -32,8 +32,8 @@ module.exports = {
     showOne: (req, res) => {
         Animal.findOne({_id: req.params.id})
         .then(showOneAnimal => {
-            console.log(showOneAnimal)
             res.json(showOneAnimal)
+            console.log(showOneAnimal)
           })
     },
 
